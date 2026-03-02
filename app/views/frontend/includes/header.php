@@ -47,30 +47,21 @@ ini_set('display_errors', 1);
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                    <li><a href="<?php echo BASE_URL; ?>" class="active">Home</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>?page=about">About</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>?page=courses">Courses</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>?page=faculty">Faculty</a></li>
+                    <li class="dropdown"><a href="#"><span>Pages</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>?page=admissions">Admissions</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>?page=results">Results</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>?page=faculty">Faculty</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>?page=gallery">Gallery</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>?page=faq">Faq</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="<?php echo BASE_URL; ?>?page=contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
